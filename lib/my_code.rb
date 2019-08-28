@@ -1,4 +1,3 @@
-
 #1.
 def map_to_negativize(array)
     p array.map{|n| n*-1}
@@ -25,7 +24,7 @@ map_to_square([1,2,3])
 
 #5.
 def reduce_to_total(source_array, starting_point)
-  source_array.reduce{|n| n+starting_point}
+  p source_array.reduce(sum, starting_point)
 end 
 reduce_to_total([3,4,5,2], 0)
 
